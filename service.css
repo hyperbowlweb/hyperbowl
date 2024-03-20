@@ -1,0 +1,63 @@
+*{margin: 0;padding: 0;font-family: "Poppins", sans-serif;
+    word-spacing: 2px;letter-spacing: 1px;
+    font-style: normal;}.logo-h{color: rgb(75, 187, 248);}
+    .logo{color: white;font-size: 2rem;margin-left: 8px;padding-left: 8px;padding-right: 8px;}
+body{overflow-x: hidden;background: black;}
+nav{background: black;padding:13px;display: flex;align-items: center;width: 100%;}
+.logo{display: inline-block;margin-left:0px;}
+#navbar-content{display: inline-block;width: 80%;text-align: right;}
+.logo img{width: 160px;height: 40px;}
+nav #navbar-content ul a{list-style: none;text-decoration: none;color: white;
+    display: inline-block;
+font-size: 16px;margin-left: 10rem;transition: .4s;}
+nav #navbar-content ul a:hover{color: rgb(75, 187, 248);transform: scale(1.1);}
+#nav-img{display: none;margin-right: 20px;}
+#nav-img img{width: 50px;height: 50px;}
+#nav-ul{margin-left: 0px;}
+.expert{color: white;}
+::-webkit-scrollbar {
+    width: 8px;height: 25px;}
+  ::-webkit-scrollbar-thumb {
+    background: rgb(75, 187, 248); 
+    border-radius:5px;
+  }
+@media(max-width:1100px){
+   
+    .heading-contact{margin-top: 250px;display: block;justify-content: left;
+        padding-top: 80px;padding-bottom: 80px;
+        flex-direction:column;background: whitesmoke;padding-left: 50px;}
+    #nav-img{display: inline-block;}.list-our-services ul{flex-direction: column;}
+    #nav-ul-li{display: none;text-align: left;margin-top: 68px;background: black;
+margin-left:1000px;position: absolute;padding: 45px;margin-right: -3vh;
+        padding-bottom:300%;padding-top: 50px;top: 0;right: 0;left: 0;}
+        .heading{text-align: center;margin-left: 0;}
+    nav #navbar-content ul a{margin: 50px;display: block;width:150px;}
+    .foot-infi{flex-direction: column;}
+   
+    .quote-text{display: block;width: 100%;margin-left: 0;}
+    
+    .header{width:350px;}
+}
+button{cursor: pointer;}
+button:hover{transform: scale(1.1);transition: .5s;}
+.services-pack ul li{
+   border-bottom: 1px solid black;padding: 25px;
+}
+.serive-h{text-align: center;margin-top:4rem;}
+.in{margin-top: 15px;font-size: 15px;color: grey;}
+.services-pack ul li h3{font-size: 25px;}
+    button{padding: 16px;font-size: 16px;margin-top:22px;
+        color: white;background:rgb(75, 187, 248);
+    border: 0;border-radius:20px;}
+    .foot-infi{display: flex;align-items: center;justify-content: center;margin-top: 100px;width:100%;
+        background: black;padding-top: 85px;}
+        .foot-infi .logo-foot #logo-foot-img{width:100;height: 50px;}
+        .foot-infi .content-foot-1 ul{text-align: center;list-style: none;display: inline-block;align-items: center;margin: 80px;}
+        .foot-infi .content-foot-2 ul{text-align: center;list-style: none;display: inline-block;align-items: center;margin: 80px;}
+        .foot-infi .content-foot-2 ul a li img{width: 40px;height: 40px;}
+        .foot-infi .content-foot-1 ul a{margin-top: 24px;text-decoration: none;color: rgb(216, 213, 213);}
+        .head-foot{margin: 5px;margin-bottom: 24px;color: white;}.logo-foot{text-align: center;}
+        .info-foot{padding-bottom: 1rem;width: 100%;padding: 5px;display: flex;justify-content: center;text-align: center;}
+        .info-foot ul a{color: white;text-decoration: none;display: inline-block;list-style: none;}
+    h3{color: white;}
+    .serive-h h1{color: white;}

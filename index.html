@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We help you to build your own Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+</head>
+<link rel="stylesheet" href="index.css">
+<link rel="shortcut icon" href="onclick.png" type="image/x-icon">
+<body>
+<div id="loader">
+    <div class="load"></div>
+</div>
+<div id="body-main">
+<nav>
+    <div class="logo">
+        <img src="onclick.png" alt="HYPERBOWL" >
+    </div>
+
+    <div class="nav-c">
+        <div id="nav-menu"><img src="white-menu-icon-4.jpg" alt="" id="nav-image-icon"></div>
+        <ul id="nav-c-ul">
+            <a href="/">
+                <li id="main-p">Home</li>
+            </a><a href="/service">
+                <li>Services</li>
+            </a><a href="https://wa.me/7439630423">
+                <li>Contact Us</li>
+            </a>
+        </ul>
+    </div>
+</nav>   
+
+<div class="heading" id="heading">
+    <h1>We are a team of <br>experienced  developer and programmers<br>
+<span class="span-main-j">Host Your Custom Website Now and engage online</span>
+  <br><a href="https://wa.me/7439630423"><button>Whatsapp Us</button></a>
+</div>
+
+<div class="expert">
+    <h1>Our Expertise At </h1><br>
+    <img width="55" height="55" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/>
+    <img width="48" height="48" src="https://img.icons8.com/color/48/css3.png" alt="css3"/>
+    <img width="48" height="48" src="https://img.icons8.com/color/48/javascript--v1.png" alt="javascript--v1"/>
+    <img width="48" height="48" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-mongodb-a-cross-platform-document-oriented-database-program-logo-color-tal-revivo.png" alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-color-tal-revivo"/>
+    <img width="48" height="48" src="https://img.icons8.com/fluency/48/mysql-logo.png" alt="mysql-logo"/>
+    <img width="48" height="48" src="https://img.icons8.com/color/48/nodejs.png" alt="nodejs"/>
+    <img width="64" height="64" src="https://img.icons8.com/nolan/64/express-js.png" alt="express-js"/>
+    <img width="48" height="48" src="https://img.icons8.com/color/48/json--v1.png" alt="json--v1"/>
+
+
+</div>
+<footer>
+    <div class="foot">
+        <ul>
+            <li><img src="onclick.png" alt="" id="logo"></li>
+            <li><img src="india.png" alt="" id="india"></li>
+        </ul>
+        <ul>
+            <a href="/">
+                <li>Home</li>
+            </a><a href="/service">
+                <li>Services</li>
+            </a><a href="https://wa.me/7439630423">
+                <li>Contact Us</li>
+            </a>
+        </ul>
+        <ul>
+            <a href="mailto:hyperbowl00@gmail.com">
+                <li><img src="mail.png" alt=""></li>
+            </a><a href="https://wa.me/7439630423">
+                <li><img width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/></li>
+            </a>
+        </ul>
+    </div>
+    <div class="info-foot">
+        <ul>
+            <a href="mailto:hyperbowl00@gmail.com"><li>hyperbowl00@gmail.com</li></a>
+            <a href=""> | Developed By @Hyperbowl</a>
+        </ul>
+    </div>
+
+</footer>
+</div>
+
+</body>
+<script>
+    window.addEventListener('load',()=>{
+        document.getElementById('loader').style.display="none"
+        document.getElementById('body-main').style.display="block"
+        setInterval(()=>{
+    document.getElementById('heading').style.marginTop="200px"
+        },.1)
+
+    })
+
+document.getElementById('nav-image-icon').addEventListener('click',()=>{
+   if(document.getElementById('nav-c-ul').style.display=='none')
+   document.getElementById('nav-c-ul').style.display='flex'
+else
+document.getElementById('nav-c-ul').style.display='none'
+
+})
+</script>
+</html>

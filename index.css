@@ -1,0 +1,59 @@
+*{margin: 0;padding: 0;background: black;letter-spacing: 3px;
+    font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 8px;height: 25px;}
+  ::-webkit-scrollbar-thumb {
+    background: rgb(75, 187, 248); 
+    border-radius:5px;
+  }
+
+
+.foot-i{text-align: center;color: white;padding-bottom: 1rem;
+font-size:17px;}
+*::selection{color: rgb(75, 187, 248);}
+html{overflow-x:hidden;}
+#nav-c-ul a{text-decoration: none;color: white;list-style: none;
+    margin-left:7rem;font-size: 16px;margin-top: 0rem;}
+    #logo,img{width: 180px;height: 60px;}
+    nav{display: flex;align-items: center;margin-top: 1rem;margin-left: 1rem;}
+#nav-c-ul{display: flex;margin-left:50vh;margin-right: 1rem;}
+.heading button{
+    color: white;border: 0;
+    padding:1rem;font-size:15px;background: rgb(75, 187, 248);
+    margin-top:1.5rem;
+border-radius: 20px;}
+    .heading button:hover{transform: scale(1.1);transition: .3s;cursor: pointer;}
+#nav-c-ul a:hover{
+    color: rgb(75, 187, 248);transition: .5s;
+    transform: scale(1.1);
+}
+.heading{color: white;font-size:18px;text-align: center;
+margin-top:100rem;transition:.8s;font-weight: 200;}
+.heading .span-main-j{color: rgb(207, 204, 204);font-size:15px;}
+.span-main{color: rgb(75, 187, 248);}
+.india{width: 48px;height:48px;}
+.foot ul{text-align: center;list-style: none;}
+#nav-menu img{width: 48px;height: 48px;position: absolute;right:1rem;display: none;}
+footer{margin-top: 10rem;}
+footer ul li img{width: 38px;height:38px;}
+footer ul a{color: white;text-decoration: none;}
+footer ul{list-style: none;margin: 2rem;margin-top:10px;}
+.expert h1{color: white;}
+.expert{text-align: center;margin:5rem;margin-top:8rem;margin-bottom: 10px;}
+.expert img{width:80px;height: 80px;margin:3rem;}
+footer ul a li {margin-top: 2rem;font-size:14px;}
+footer ul li{margin-top: 2rem;}
+.foot{display: flex;align-items: center;justify-content: center;}
+@media(max-width:1200px){
+    .foot{flex-direction: column;}
+    #nav-c-ul a{height: 5rem;width:10rem;}
+    #nav-c-ul{padding-top: 2rem;padding-left:7rem;padding-right:2rem;
+        background: black;height: 100vh;;margin-left: 5rem;
+        display: none;flex-direction: column;position: absolute;margin-top:5rem;right:-1rem;}
+  #nav-menu img{display: flex;}
+  #nav-c-ul a{margin-top: 1rem;}
+}
+.info-foot{text-align: center;}
+.info-foot a{display: inline-block;}
